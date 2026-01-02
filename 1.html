@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MD5 → Chẵn / Lẻ AI</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="app">
+<div class="card">
+
+<h2>🔐 MD5 → CHẴN / LẺ (AI)</h2>
+<div class="subtitle">tele: anhtubantool</div>
+
+<input id="md5" placeholder="Nhập hoặc dán MD5 (32 hex)">
+
+<div class="btn-row">
+    <button onclick="pasteMD5()">📋 DÁN</button>
+    <button onclick="analyze()">PHÂN TÍCH</button>
+</div>
+
+<div id="result" class="result"></div>
+
+<div class="history">
+    <h4>📜 Lịch sử (tối đa 20 – tự reset)</h4>
+    <div id="historyList"></div>
+</div>
+
+<div class="footer-note">
+    tool free (dự đoán tầm 70%)
+</div>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
